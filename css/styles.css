@@ -167,6 +167,7 @@ img {
 .feature-list {
   display: flex;
   gap: 30px;
+  flex-basis: 270px;
 }
 .feature-list .title {
   color: var(--primery-text-color);
@@ -338,6 +339,7 @@ img {
 }
 .card-box {
   padding: 30px;
+  text-align: center;
 }
 .portfolio-list .name {
   color: var(--primery-text-color);
