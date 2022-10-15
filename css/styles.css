@@ -26,7 +26,7 @@ p {
   margin: 0;
 }
 .container {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -50,7 +50,6 @@ p {
 }
 .section {
   padding: 94px 0;
-  outline: 2px solid tomato;
 }
 .section.todo {
   padding-top: 0;
@@ -136,7 +135,7 @@ img {
   margin-top: 0;
   margin-bottom: 30px;
   text-align: center;
-  width: 696px;
+  max-width: 696px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -167,7 +166,6 @@ img {
 .feature-list {
   display: flex;
   gap: 30px;
-  flex-basis: 270px;
 }
 .feature-list .title {
   color: var(--primery-text-color);
